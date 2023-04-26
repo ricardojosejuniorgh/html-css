@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <H1>Imagem dinâmica</H1>
+    <p>Tente abrir esse site em vários dispositivos diferente
+        ou aumentar e diminuir o tamanho no seu navegador</p>
+
+        <picture> <!--tag usada para trabalhar com mais de uma imagem com tamanho diferentes e 
+                    evitar a barra de rolagem lateral na hora da navegação -->
+            <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+            <img src="imagens/foto-g.png" alt="imagem flexivel">
+        </picture>   <!-- depois usar a tag <img> como seletor, e em cima usar tag <source media type>
+            (modificar o min: para o max: sempre colorando 50px a mais de diferença), 
+            no seletor srcset="(colocar o caminho da imagem)" e no seletor type="(colocar o tipo e o formato)"
+            ex: type="image/png"-->
+        <!--<h1>Reproduzindo audios</h1>  uma forma de colocar um audio-->
+        <!--<p>Vamos aprender a reproduzir audios em HTML5.</p>
+        <audio src="midias/comeco-a-suar.ogg.ogg" controls autoplay></audio>
+         outra forma de colocar audios-->
+        <h2>Colocar audios de outra forma</h2>
+        <audio preload="metadata" autoplay controls>
+            <source src="midias/mijou-agachada.mp3" type="audio/mpeg">
+            <source src="midias/mijou-agachada.ogg.ogg" type="audio/ogg">
+            <source src="midias/mijou-agachada.wav.wav" type="audio/wav">
+            <p>Infelizmente seu navegador não consegue reproduzir audio.
+               Faça o download do arquivo<a href="midias/mijou-agachada.mp3">em MP3</a> ou 
+               baixe <a href="midias/mijou-agachada.ogg.ogg">em ogg</a>.
+            </p>
+        </audio> 
+</body>
+</html>

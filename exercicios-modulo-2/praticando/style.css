@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+h1 {
+    background-color: rgb(199, 179, 130);
+    color: rgb(43, 43, 100);
+    font-size: 3em;
+    border-style: double;
+}
+
+#menu {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+#h2menu {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(24, 24, 119);
+    font-size: 2em;
+}
+
+.pmenu {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    color: black;
+    background-color: rgb(145, 145, 204);
+}
+
+#h2bebidas {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(24, 24, 119);
+    font-size: 2em;
+}
+.pbebidas {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    color: black;
+    background-color: rgba(45, 45, 245, 0.212);
+}
+
+div#menu > p {
+    display: none;
+}
+#menu:active > p {
+    display: block;
+}
+
+#bebidas > p {
+    display: none;
+}
+
+#bebidas:active > p {
+    display: block;
+}
+
+#h2extra {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(24, 24, 119);
+    font-size: 2em;
+}
+
+.pextra {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4em;
+    color: rgb(224, 6, 152);
+    background-color: rgba(255, 249, 168, 0.897);
+}
+#extra > p {
+    display: none;
+}
+#extra:active > p {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

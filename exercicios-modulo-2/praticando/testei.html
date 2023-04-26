@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+</head>
+<body>
+    <H1>Imagem dinâmica</H1>
+    <p>Tente abrir esse site em vários dispositivos diferente
+        ou aumentar e diminuir o tamanho no seu navegador</p>
+
+        <picture> <!--tag usada para trabalhar com mais de uma imagem com tamanho diferentes e 
+                    evitar a barra de rolagem lateral na hora da navegação -->
+            <source media="(max-width: 650px)" srcset="imagens/dragonball=300px.jpe" type="image/jpeg">
+            <source media="(max-width: 1050px)" srcset="imagens/dragonball=700px.jpe" type="image/jpeg">
+            <img src="imagens/dragonball=1000px.jpe" alt="imagem flexivel">
+        </picture>   <!-- depois usar a tag <img> como seletor, e em cima usar tag <source media type>
+            (modificar o min: para o max: sempre colorando 50px a mais de diferença), 
+            no seletor srcset="(colocar o caminho da imagem)" e no seletor type="(colocar o tipo e o formato)"
+            ex: type="image/png"-->
+    
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste caixas</title>
+
+    <style>
+        #a {
+            display: inline-block;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2em;
+            width: 200px;
+            height: 200px;
+            background-color: rgb(224, 147, 147);
+            text-align: center;
+            border: 10px groove brown;  
+        }
+        #a > p {
+            display: none;
+        }
+        #a:hover > p {
+            display: block;
+        }
+        .pa {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2em;
+            width: 200px;
+            height: 200px;
+            background-color: rgb(224, 147, 147);
+            text-align: center;
+            border: 10px groove brown;
+        }
+
+        #b {
+            display: inline-block;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2em;
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            text-align: center;
+            border: 10px groove brown;
+        }
+        #b > p {
+            display: none;
+        }
+        #b:hover > p {
+            display: block;
+        }
+        .pb {
+            display: inline-block;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 40px;
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            text-align: center;
+            border: 10px groove brown;
+        }
+    
+
+        #c {
+            display: inline-block;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2em;
+            width: 200px;
+            height: 200px;
+            background-color: rgb(247, 62, 62);
+            text-align: center;
+            border: 10px groove brown;
+        }
+        #c > p {
+            display: none;
+        }
+        #c:hover > p {
+            display: block;
+        }
+        .pc {
+            display: inline-block;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 40px;
+            width: 200px;
+            height: 200px;
+            background-color: rgb(247, 62, 62);
+            text-align: center;
+            border: 10px groove brown;
+        }
+
+        #d {
+            display: inline-block;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2em;
+            width: 200px;
+            height: 200px;
+            background-color: lightpink;
+            text-align: center;
+            border: 10px groove brown;
+            outline: 1px solid white;
+        }
+        #d > p {
+            display: none;
+        }
+        #d:hover > p {
+            display: block;
+        }
+        #d:active {
+            content: '&#x1F919';
+        }
+        .pd {
+            display: inline-block;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1em;
+            width: 200px;
+            height: 200px;
+            background-color: lightpink;
+            text-align: center;
+            border: 10px groove brown;
+            outline: 1px solid white;
+        }
+
+       
+        
+
+    </style>
+</head>
+<body>
+    <h1>Praticando</h1>
+    <div id="a"> A de 
+        <p class="pa">Amor &#x1F491</p>
+    </div>
+    <div id="b"> B de 
+        <p class="pb">Baixinho<br>&#x1F600</p>
+    </div>
+    <div id="c"> C de
+        <p class="pc">Coração &#x1F498</p>
+    </div>
+    <div id="d">D de
+        <p>Removeu Você</p>
+    </div>    
+</body>
+</html>

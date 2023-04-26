@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com Listas</h1>
+    <h2>Listas Ordenadas</h2>       <!-- <ol> para criar uma lista ordenada -->        
+   <ol type="i">                    <!-- <ol type=""> escolher o estilo da lista se é por 123,abc,ABC ou numeros romanos. -->
+        <li>Acordar</li>            <!-- <ol type="" start="1,2,3 ou mais"> escolher o número inicial da lista para os itens. -->
+        <li>Ligar para o João</li>  <!-- <li> no inicio de cada item da lista, dentro da lista ordenada <ol> <li> </li> </ol> . -->
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para a faculdade</li>
+        <li>Almoçar</li>
+        <li>Ir para o trabalho</li>
+        <li>Voltar para casa</li>
+        <li>Jantar</li>
+        <li>Dormir</li>
+   </ol>
+   <h2>Listas não Ordenadas</h2> <!-- <ul> criar listas sem se preocupar com a ordem dos itens dentro dela. -->
+   <ul type="square">                  <!--  <ul type=""> podendo escolher 3 marcacores, disc, circle ou square -->
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Alface</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+   </ul>
+   <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="1" start="10">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
+    <h2>Meus jogos favoritos</h2>
+    <ol>                            <!-- lista ordenanda-->
+        <li>NES</li> <!-- lista ordenada nivel 1-->
+            <ul type="square"> <!-- lista não ordenada nivel 2-->
+                <li>Mario Bros</li> 
+                    <ul type="circle"> <!-- lista não ordenada nivel 3-->
+                        <li>Mario Bros 3</li> 
+                        <li>Mario: Lost Levels</li>
+                    </ul>
+                <li>Ninja Gaiden</li>
+            </ul>
+        <li>SNES</li>
+            <ul type="square">     <!-- lista não ordenada nivel 2-->
+                <li>Mario</li>
+                <li>Donkey Kong</li>
+            </ul>
+        <li>PlayStation</li>
+            <ul type="square">      <!-- lista não ordenada nivel 2-->
+                <li>Final Fantasy</li>
+                <li>Castlevania</li>
+            </ul>
+    </ol>
+    <h2>Lista de Definições</h2> 
+    <dl>                        <!-- <dl> para criar uma lista de definição. -->
+        <dt>HTML</dt>           <!-- <dt> para colocar o termo-->
+        <dd>Linguagem de marcação para criação de sites.</dd> <!-- <dd> para colocar a descrição do termo embaixo.-->
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para criação de design de u msite.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para criar interatividade de um site.</dd>
+    </dl>
+</body>
+</html>
