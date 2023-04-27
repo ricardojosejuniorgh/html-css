@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste de imagem de fundo</title>
+    <style>
+        * {
+            margin: 0px;
+        }
+        header img {
+            display: block;
+            height: 300px;
+            width: 100%;
+        }
+
+        .quadrado {
+            display: inline-block;
+            position: absolute;
+            border: 2px solid black;
+            border-radius: 10px; 
+            width: 300px;
+            height: 300px;
+            margin-right: 20px;
+            text-align: center;
+            
+        }
+
+        #q1 {
+            background-color: aquamarine;
+            top: 3%;
+            left: 3%;
+        }
+
+        #q2 {
+            background-image: linear-gradient(to bottom, yellow, orange, rgb(218, 65, 65));
+            top: 3%;
+            left: 35%;
+        }
+        #q3 {
+            background-image: url(imagens/pattern003.png);
+            top: 3%;
+            left: 67%;
+        }
+        #q3:hover {
+            background-image: url(imagens/pattern002.png);
+        }
+        #q3:active {
+            background-image: url(imagens/pattern001.png);
+        }
+        header h1 {
+            color: green;
+            padding-top: 10px;
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <picture>
+            <img src="imagens/wallpaper002.jpg" alt="">
+        </picture>
+        <div class="quadrado" id="q1">
+            <h1>Imagem 1</h1>
+        </div>
+
+        <div class="quadrado" id="q2">
+            <h1>Imagem 2</h1>
+        </div>
+
+        <div class="quadrado" id="q3">
+            <h1>Imagem 3</h1>
+        </div>
+
+    </header>
+    
+</body>
+</html>
