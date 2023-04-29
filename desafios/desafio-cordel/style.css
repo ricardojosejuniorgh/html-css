@@ -1,0 +1,91 @@
+@charset "UTF8";
+
+
+:root {
+    --font-header: 'Passion One', cursive;
+    --font-main: 'Sriracha', cursive;
+}
+
+* {
+    margin: 0px;
+}
+
+header {
+    background-color: black;
+}
+header h1 {
+    font-family: var(--font-header);
+    font-size: 6em;
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+}
+header > .letra.header {
+    display: inline-block;
+    font-size: 10em;
+}
+header p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
+}
+main {
+    position: center;
+}
+main > pre {
+    font-family: var(--font-main);
+    font-size: 40px;
+    padding-left: 30px;
+}
+div p {
+    font-family: var(--font-main);
+}
+
+#image1 {
+    height: 100vh;
+    position: relative;
+    background-image: url(imagens/imagem-flor.jpg);
+    background-position: center center;
+    background-size: auto;
+    height: 700px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.p-image1 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.200);
+    font-size: 40px;
+    padding: 10px;
+    color: white;
+    left: 3%;
+    top: 15%;
+}
+
+#image2 {
+    height: 100vh;
+    position: relative;
+    background-image: url(imagens/imagem-pagina.jpg);
+    background-position: center center;
+    background-size: auto;
+    height: 700px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.p-image2 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.400);
+    font-size: 40px;
+    padding: 10px;
+    color: white;
+    left: 3%;
+    top: 15%;
+}
+
+
+
+    
