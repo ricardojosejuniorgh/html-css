@@ -47,8 +47,7 @@ div p {
     position: relative;
     background-image: url(imagens/imagem-flor.jpg);
     background-position: center center;
-    background-size: auto;
-    height: 700px;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -68,14 +67,14 @@ div p {
     position: relative;
     background-image: url(imagens/imagem-pagina.jpg);
     background-position: center center;
-    background-size: auto;
-    height: 700px;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 .p-image2 {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.400);
+
     font-size: 40px;
     padding: 10px;
     margin: auto;
