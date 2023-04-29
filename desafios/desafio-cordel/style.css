@@ -31,7 +31,7 @@ header p {
     padding-bottom: 40px;
 }
 main {
-    position: center;
+    margin: auto;
 }
 main > pre {
     font-family: var(--font-main);
@@ -49,8 +49,6 @@ div p {
     background-position: center center;
     background-size: auto;
     height: 700px;
-    margin-top: 50px;
-    margin-bottom: 30px;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -59,6 +57,7 @@ div p {
     background-color: rgba(0, 0, 0, 0.200);
     font-size: 40px;
     padding: 10px;
+    margin: auto;
     color: white;
     left: 3%;
     top: 15%;
@@ -71,8 +70,6 @@ div p {
     background-position: center center;
     background-size: auto;
     height: 700px;
-    margin-top: 50px;
-    margin-bottom: 30px;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -81,6 +78,7 @@ div p {
     background-color: rgba(0, 0, 0, 0.400);
     font-size: 40px;
     padding: 10px;
+    margin: auto;
     color: white;
     left: 3%;
     top: 15%;
