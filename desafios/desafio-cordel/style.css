@@ -36,18 +36,22 @@ header p {
     font-family: var(--font-main);
     font-size: 40px;
     margin: 100px 0px 130px 30px;
+    margin: auto;
 }
 
 #image1 {
     position: relative;
-    height: 100vh;
+    height: 700px;
+    width: 100%;
     background: gray url(imagens/imagem-flor.jpg) center bottom no-repeat fixed;
     background-size: 100% 100%;
+    
 
 }
 .p-image1 {
     position: absolute;
     display: inline-block;
+    
     background-color: rgba(0, 0, 0, 0.200);
     font-family: var(--font-main);
     font-size: 40px;
