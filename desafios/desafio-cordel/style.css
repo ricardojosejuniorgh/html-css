@@ -8,18 +8,23 @@
 
 * {
     margin: 0px;
+    padding: 0px;
 }
 
+html, body {
+    min-width: 100vh;
+    background-color: gray;
+}
 
 header {
     background-color: black;
+    color: white;
+    text-align: center;
 }
 header h1 {
     font-family: var(--font-header);
-    font-size: 6em;
-    text-align: center;
-    color: white;
-    padding-top: 40px;
+    padding: 50px;
+    font-variant: small-caps;
 }
 header > .letra.header {
     display: inline-block;
@@ -27,53 +32,41 @@ header > .letra.header {
 }
 header p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 50px;
+}
+header a {
+    text-decoration: none;
     color: white;
-    text-align: center;
-    padding-bottom: 40px;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 10vh 0vh 10vh 0vh;
+    line-height: 2em;
+    padding-left: 30px;
 }
 
 .normal {
-    font-family: var(--font-main);
-    font-size: 40px;
-    margin: 100px 0px 130px 30px;
-    margin: auto;
+    background-color: white;
+    color: black;
 }
-
-#image1 {
-    position: relative;
-    height: 700px;
-    width: 100%;
-    background: gray url(imagens/imagem-flor.jpg) center bottom no-repeat fixed;
-    background-size: 100% 100%;
-    
-
-}
-.p-image1 {
-    position: absolute;
-    display: inline-block;
-    
-    background-color: rgba(0, 0, 0, 0.200);
-    font-family: var(--font-main);
-    font-size: 40px;
+ 
+.image {
+    background-color: rgb(71, 71, 71);
     color: white;
-    margin: 0px 0px 0px 30px;
-
-    top: 20%;
-
-
 }
-
-
-
+.image > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.250);
+}
 
 footer {
     background-color: black;
-    font-family: var(--font-main);
     color: white;
     text-align: center;
+    padding: 10px;
 }
 
-footer p {
-    display: inline-block;
-    padding: 0px 10px;
-}
