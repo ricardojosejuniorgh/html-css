@@ -59,4 +59,5 @@ footer {
     font-family: var(--font-main);
     color: white;
     text-align: center;
+    padding: 10px;
 }
