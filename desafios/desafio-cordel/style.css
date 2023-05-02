@@ -10,9 +10,6 @@
     margin: 0px;
 }
 
-body {
-    margin: auto;
-}
 
 header {
     background-color: black;
@@ -43,8 +40,8 @@ header p {
 
 #image1 {
     position: relative;
-    height: 700px;
-    background: gray url(imagens/imagem-flor.jpg) center center no-repeat fixed;
+    height: 100vh;
+    background: gray url(imagens/imagem-flor.jpg) center bottom no-repeat fixed;
     background-size: 100% 100%;
 
 }
@@ -57,7 +54,7 @@ header p {
     color: white;
     margin: 0px 0px 0px 30px;
 
-    top: ;
+    top: 20%;
 
 
 }
