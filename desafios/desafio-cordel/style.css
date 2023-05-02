@@ -30,59 +30,33 @@ header p {
     text-align: center;
     padding-bottom: 40px;
 }
-main {
-    margin: auto;
-}
-main > pre {
+
+.normal {
     font-family: var(--font-main);
     font-size: 40px;
-    padding-left: 30px;
-}
-div p {
-    font-family: var(--font-main);
+    margin: 100px 0px 130px 30px;
 }
 
 #image1 {
-    height: 100vh;
     position: relative;
-    background-image: url(imagens/imagem-flor.jpg);
-    background-position: center center;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background: gray url(imagens/imagem-flor.jpg) center center no-repeat fixed;
+    background-size: contain;
+
 }
 .p-image1 {
-    position: absolute;
     background-color: rgba(0, 0, 0, 0.200);
+    font-family: var(--font-main);
     font-size: 40px;
-    padding: 10px;
-    margin: auto;
     color: white;
-    left: 3%;
-    top: 15%;
+
 }
 
-#image2 {
-    height: 100vh;
-    position: relative;
-    background-image: url(imagens/imagem-pagina.jpg);
-    background-position: center center;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-.p-image2 {
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.400);
 
-    font-size: 40px;
-    padding: 10px;
-    margin: auto;
+
+
+footer {
+    background-color: black;
+    font-family: var(--font-main);
     color: white;
-    left: 3%;
-    top: 15%;
+    text-align: center;
 }
-
-
-
-    
