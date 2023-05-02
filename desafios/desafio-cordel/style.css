@@ -28,10 +28,7 @@ header h1 {
     font-variant: small-caps;
     font-size: 10vw;
 }
-header > .letra.header {
-    display: inline-block;
-    font-size: 10em;
-}
+
 header p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-bottom: 50px;
@@ -61,10 +58,26 @@ section {
 .image {
     background-color: rgb(71, 71, 71);
     color: white;
+    background-attachment: fixed;
+
 }
 .image > p {
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.250);
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.450);
+    text-shadow: 2px 2px 0px black;
+}
+
+#img01 {
+    background-image: url(imagens/imagem-flor.jpg);
+    background-size: cover;
+    background-position: right center;
+}
+
+#img02 {
+    background-image: url(imagens/imagem-pagina.jpg);
+    background-size: cover;
+    background-position: right bottom;
 }
 
 footer {
