@@ -12,7 +12,7 @@
 }
 
 html, body {
-    min-width: 100vh;
+    min-height: 100vh;
     background-color: gray;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -22,7 +22,8 @@ header {
     color: white;
     text-align: center;
 }
-header h1 {
+header > h1 {
+    display: inline-block;
     font-family: var(--font-header);
     padding: 50px;
     font-variant: small-caps;
@@ -69,13 +70,13 @@ section {
 }
 
 #img01 {
-    background-image: url(imagens/imagem-flor.jpg);
+    background-image: url('imagens/imagem-flor.jpg');
     background-size: cover;
     background-position: right center;
 }
 
 #img02 {
-    background-image: url(imagens/imagem-pagina.jpg);
+    background-image: url('imagens/imagem-pagina.jpg');
     background-size: cover;
     background-position: right bottom;
 }
