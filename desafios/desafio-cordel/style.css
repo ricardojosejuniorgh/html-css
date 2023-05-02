@@ -10,6 +10,10 @@
     margin: 0px;
 }
 
+body {
+    margin: auto;
+}
+
 header {
     background-color: black;
 }
@@ -45,12 +49,15 @@ header p {
 
 }
 .p-image1 {
+    position: absolute;
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.200);
     font-family: var(--font-main);
     font-size: 40px;
     color: white;
     margin: 0px 0px 0px 30px;
+
+    top: ;
 
 
 }
