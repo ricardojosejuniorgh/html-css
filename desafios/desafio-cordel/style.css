@@ -40,12 +40,12 @@ header p {
 #image1 {
     position: relative;
     height: 100vh;
-    width: 100%;
     background: gray url(imagens/imagem-flor.jpg) center center no-repeat fixed;
-    background-size: contain;
+    background-size: 100% 80%;
 
 }
 .p-image1 {
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.200);
     font-family: var(--font-main);
     font-size: 40px;
