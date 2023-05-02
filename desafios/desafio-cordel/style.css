@@ -39,6 +39,8 @@ header p {
 
 #image1 {
     position: relative;
+    height: 100vh;
+    width: 100%;
     background: gray url(imagens/imagem-flor.jpg) center center no-repeat fixed;
     background-size: contain;
 
@@ -48,7 +50,8 @@ header p {
     font-family: var(--font-main);
     font-size: 40px;
     color: white;
-    
+    margin: 0px 0px 0px 30px;
+
 
 }
 
