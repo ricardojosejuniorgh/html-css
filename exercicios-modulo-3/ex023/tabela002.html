@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de tabelas grandes</title>
+
+    <style>
+        table {
+            width: 500px;
+            border-collapse: collaps;
+        }
+
+        
+        tbody {
+            background-color: rgb(207, 205, 205);
+        }
+
+        .cabeca {
+            background-color: rgb(53, 52, 52);
+            color: white;
+            text-decoration: underline;
+        }
+        .rank {
+            text-align: center;
+        }
+        #rank-cor > td {
+            background-color: gray;
+        }
+        .estados {
+            
+        }
+        .populacao {
+            text-align: center;
+        }
+        tr > td, th {
+            padding: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- 
+        Anatomia para tabelas grandes
+
+        Table
+            Thead = (cabeça)
+                tr, td, th
+
+            Tbody = (corpo)
+                tr, td, th
+
+            Tfoot
+                tr, td, th
+    -->
+    <h1>Uso de tabelas grandes</h1>
+
+    <table>
+        <thead class="cabeca">
+            <tr>
+                <th>Posição no Ranking</th>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+        <tbody>
+    
+            <tr>
+                <td class="rank">01</td>
+                <td class="estados">São Paulo</td>
+                <td class="populacao">45 919 049</td>
+            </tr>
+            <tr id="rank-cor">
+                <td class="rank">02</td>
+                <td class="estados">Minas Gerais</td>
+                <td class="populacao">21 168 791</td>
+            </tr>
+            <tr>
+                <td class="rank">03</td>
+                <td class="estados">Rio de Janeiro</td>
+                <td class="populacao">17 264 943</td>
+            </tr>
+            <tr id="rank-cor">
+                <td class="rank">04</td>
+                <td class="estados">Bahia</td>
+                <td class="populacao">14 879 064</td>
+            </tr>
+            <tr>
+                <td class="rank">05</td>
+                <td class="estados">Paraná</td>
+                <td class="populacao">11 433 957</td>
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+
+        </tfoot>
+    </table>
+</body>
+</html>
