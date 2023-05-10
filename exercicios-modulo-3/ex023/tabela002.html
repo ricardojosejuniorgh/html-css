@@ -7,11 +7,32 @@
     <title>Uso de tabelas grandes</title>
 
     <style>
-        table {
-            width: 500px;
-            border-collapse: collaps;
+        * {
+            padding: 0px;
+            margin: 0px;
         }
+        h1 {
+            text-align: center;
+        }
+        body {
+            max-width: 600px;
+            margin: auto;
+        }
+        caption {
+            text-align: center;
+            background-color: lightgray;
+            font-size: 3vw;
+            padding: 5px;
+        }
+        table {
+            width: 60vw;
+            border-collapse: collaps;
+            position: absolute;
 
+            top: 10%;
+            left: 50%;
+            transform: translate(-50%);
+        }
         
         tbody {
             background-color: rgb(207, 205, 205);
@@ -28,14 +49,19 @@
         #rank-cor > td {
             background-color: gray;
         }
-        .estados {
-            
-        }
+
         .populacao {
             text-align: center;
         }
         tr > td, th {
+            font-size: 2.3vw;
             padding: 5px;
+        }
+        tfoot {
+            background-color: rgb(53, 52, 52);
+            color: white;
+            text-align: center;
+            font-weight: bold;
         }
 
     </style>
@@ -45,6 +71,8 @@
         Anatomia para tabelas grandes
 
         Table
+            Caption = (legenda da tabela)
+
             Thead = (cabeça)
                 tr, td, th
 
@@ -54,9 +82,12 @@
             Tfoot
                 tr, td, th
     -->
+
     <h1>Uso de tabelas grandes</h1>
 
+    
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead class="cabeca">
             <tr>
                 <th>Posição no Ranking</th>
@@ -95,7 +126,11 @@
         </tbody>
 
         <tfoot>
-
+            <tr>
+                <td>Total da População </td>
+                <td></td>
+                <td>110 665 804</td>
+            </tr>
         </tfoot>
     </table>
 </body>
