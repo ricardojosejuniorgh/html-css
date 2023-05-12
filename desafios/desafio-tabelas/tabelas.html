@@ -5,39 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio Tabela 01</title>
+    <link rel="stylesheet" href="estilo/style.css">
 
-    <style>
-
-        .tabela01 {
-        }
-        .tabela01 td {
-            width: 60px;
-            border: 1px solid black;
-            padding: 5px;
-            text-align: center;
-        }
-    </style>
-
-    <style>
-
-        .tabela02 {
-            margin-top: 50px;
-            margin-bottom: 50px;
-        }
-        .tabela02 td {
-            width: 60px;
-            border: 1px solid black;
-            padding: 5px;
-            text-align: center;
-        }
-
-    </style>
-
-    <style>
-        .tabela03 {
-            width: 600px;
-        }
-    </style>
 </head>
 <body>
     <table class="tabela01">
@@ -99,10 +68,10 @@
     <table class="tabela03">
         <thead>
             <tr>
-                <th>Área</th>
-                <th>Disciplinas</th>
-                <th>Notas</th>
-                <th>Média</th>
+                <th rowspan="2">Área</th>
+                <th rowspan="2">Disciplinas</th>
+                <th colspan="2">Notas</th>
+                <th rowspan="2">Média</th>
             </tr>
             <tr>
                 <th>Notas 1</th>
@@ -111,49 +80,50 @@
         </thead>
         <tbody>
             <tr>
-                <th>Exatas</th>
+                <td rowspan="4" class="td-area">Exatas</td>
                 <td>Matemática</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
+                <td class="td-notas">0.0</td>
+                <td class="td-notas">0.0</td>
+                <td class="td-notas">0.0</td>
             </tr>
             <tr>
                 <td>Física</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
+                <td class="td-notas">0.0</td>
+                <td class="td-notas">0.0</td>
+                <td class="td-notas">0.0</td>
             </tr>
             <tr>
                 <td>Química</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
+                <td class="td-notas">0.0</td>
+                <td class="td-notas">0.0</td>
+                <td class="td-notas">0.0</td>
             </tr>
             <tr>
                 <td>Biologia</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
+                <td class="td-notas">0.0</td>
+                <td class="td-notas">0.0</td>
+                <td class="td-notas">0.0</td>
             </tr>
             <tr>
-                <th>Média de Exatas</th>
+                <th colspan="4" class="th-media">Média de Exatas</th>
                 <th>0.0</th>
             </tr>
             <tr>
-                <th>Humanas</th>
+                <td rowspan="2" class="td-area">Humanas</td>
                 <td>História</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
+                <td class="td-notas">0.0</td>
+                <td class="td-notas">0.0</td>
+                <td class="td-notas">0.0</td>
             </tr>
             <tr>
                 <td>Geografia</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
+                <td class="td-notas">0.0</td>
+                <td class="td-notas">0.0</td>
+                <td class="td-notas">0.0</td>
             </tr>
             <tr>
-                <th>Média de Humanas</th>
+                <th colspan="4" class="th-media">Média de Humanas</th>
+                <th>0.0</th>
             </tr>
         </tbody>
     </table>

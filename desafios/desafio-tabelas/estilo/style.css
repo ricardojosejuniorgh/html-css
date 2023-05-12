@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+
+
+    .tabela01 td {
+        width: 60px;
+        border: 1px solid black;
+        padding: 5px;
+        text-align: center;
+    }
+
+/* ---------------------------------------------------------- */
+
+
+    .tabela02 {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .tabela02 td {
+        width: 60px;
+        border: 1px solid black;
+        padding: 5px;
+        text-align: center;
+    }
+
+/* ---------------------------------------------------------- */
+
+    .tabela03 {
+        width: 600px;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+    .tabela03 th, td {
+        border: 1px solid black;
+        padding: 5px;
+    }
+    .tabela03 th {
+        background-color: gray;
+        color: white;
+    }
+
+    .th-media {
+        text-align: left;
+    }
+
+    .td-area {
+        text-align: center;
+    }
+
+    .td-notas {
+        text-align: center;
+    }
