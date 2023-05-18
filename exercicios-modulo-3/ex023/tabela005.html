@@ -5,9 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tabela 5</title>
+
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        table th, td {
+            border:1px solid black;
+            padding: 5px;
+        }
+        col.col-01 {
+            width: 120px;
+        }
+        col.col-2-3 {
+            width: 50px;
+        }
+        col.col-04 {
+            width: 120px;
+        }
+        
+
+    </style>
 </head>
 <body>
     <table>
+        <colgroup>
+            <col class="col-01">
+            <col class="col-2-3" span="2">
+            <col class="col-04">
+        </colgroup>
         <caption>Cadrastro</caption>
         <thead>
                 <tr>
