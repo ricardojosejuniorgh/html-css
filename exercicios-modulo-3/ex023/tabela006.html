@@ -7,6 +7,10 @@
     <title>tabela com rolagem</title>
 
     <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
         table th, td {
             border: 1px solid black;
             padding: 5px;
@@ -14,12 +18,29 @@
         table {
             font-family: Arial, Helvetica, sans-serif;
         }
+        caption {
+            font: normal bold 2em arial;
+            padding: 20px;
+        }
+        #container {
+            overflow-x: auto;
+        }
+        body {
+            padding: 20px;
+            text-align: justify;
+        }
+        body h1 {
+            padding-bottom: 20px;
+            text-align: center;
+        }
+
     </style>
 </head>
 <body>
     <h1>Tabelas em telas menores</h1>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum soluta natus harum laboriosam commodi beatae, aperiam dicta. Officia impedit illo inventore eius. Quibusdam quod at, mollitia explicabo alias molestias beatae. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus asperiores quo veritatis a architecto magnam ab enim, eligendi eius quidem debitis optio, dignissimos at unde! Dignissimos veniam dolores cum impedit!</p>
 
+    <div id="container">
     <table>
         <caption>Tabelas responsivas</caption>
         <thead>
@@ -147,7 +168,7 @@
                     <td>4</td>
                 </tr>
             </tbody>
-    </table>
-    
+     </table>
+    </div>
 </body>
 </html>
