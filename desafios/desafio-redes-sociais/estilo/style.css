@@ -27,6 +27,7 @@ main {
     height: 627px;
     width: 311px;
 
+
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -45,11 +46,11 @@ main {
 #redes-sociais {
     text-align: right;
     padding-top: 20px;
-    padding-right: 20px;
+    padding-right: 10px;
     
 }
 #redes-sociais img {
-    width: 50px;
+    width: 7vw;
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 50%;
