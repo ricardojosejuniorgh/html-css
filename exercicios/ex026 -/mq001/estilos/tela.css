@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font: normal medium 1em arial;
+    text-align: justify;
+}
+
+header h1 {
+    margin: 20px;
+}
+header menu ul {
+    margin: 10px 10px 10px 80px;
+    list-style: none;
+}
+header li {
+    display: inline-flex;
+    line-height: 2em;
+    padding: 0px 10px;
+
+
+}
+header menu ul > li:hover {
+    background-color: rgb(116, 255, 255);
+    border-radius: 10px;
+}
+
+main {
+    display: block;
+    margin: auto;
+    padding: 20px;
+    width: 600px;
+}
+main h2 {
+    margin: 20px;
+}
+article p {
+    text-indent:2em ;
+    line-height: 1.5em;
+}
