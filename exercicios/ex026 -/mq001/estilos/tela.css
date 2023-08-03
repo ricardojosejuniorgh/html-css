@@ -9,7 +9,11 @@ html {
     font: normal medium 1em arial;
     text-align: justify;
 }
-
+body {
+    background-image: url(../../imagens/back-print.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 header h1 {
     margin: 20px;
 }
@@ -21,8 +25,6 @@ header li {
     display: inline-flex;
     line-height: 2em;
     padding: 0px 10px;
-
-
 }
 header menu ul > li:hover {
     background-color: rgb(116, 255, 255);
@@ -34,6 +36,9 @@ main {
     margin: auto;
     padding: 20px;
     width: 600px;
+
+    background-color: rgba(103, 101, 101, 0.119);
+    
 }
 main h2 {
     margin: 20px;
@@ -41,4 +46,6 @@ main h2 {
 article p {
     text-indent:2em ;
     line-height: 1.5em;
+    padding: 20px;
+  
 }
